@@ -1,0 +1,19 @@
+name: FeatherSpawn
+version: '1.0.0'
+main: com.featherffa.spawntp.SpawnTP
+api-version: '1.21'
+author: Feather FFA
+description: A clean /spawn teleport command with a countdown, for Feather FFA.
+
+commands:
+  spawn:
+    description: Teleport to spawn, or set the spawn point with /spawn set
+    usage: /<command> [set]
+
+permissions:
+  spawntp.use:
+    description: Allows use of /spawn
+    default: true
+  spawntp.set:
+    description: Allows setting the spawn point with /spawn set
+    default: op
