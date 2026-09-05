@@ -1,4 +1,0 @@
-# FeatherSpawn config
-# The spawn location is written here automatically the first time an admin
-# runs /spawn set — you don't need to edit this by hand. It survives
-# server restarts because it's just this file on disk.
